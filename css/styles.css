@@ -1,0 +1,34 @@
+.container{
+    background-color: black;
+ 
+}
+.green-box{
+    background-color: green;
+    color: white;
+    height: 500px;
+}
+
+.purple-box{
+    background-color: purple;
+    color: white;
+
+}
+
+/* ### Footer ### */
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    /*margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #d6cdcd;
+}
